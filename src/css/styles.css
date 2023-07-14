@@ -14,3 +14,21 @@ body {
   color: #ffffff;
 }
 
+.cabecalho {
+  display: flex;
+  justify-content: center;
+}
+
+.selecao-de-personagens {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.selecao-de-personagens .lista-de-personagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+
+}
